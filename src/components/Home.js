@@ -1,10 +1,11 @@
 import React from 'react';
-import ControlledCarousel from './Slide';
+import CoinContainer from './CoinContainer';
+import Slide from './Slide';
 
 const Home = () => (
   <div>
-    <ControlledCarousel />
-
+    <Slide />
+    <CoinContainer />
   </div>
 );
 

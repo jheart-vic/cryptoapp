@@ -1,0 +1,53 @@
+.grid {
+  display: grid;
+  background-color: rgb(251, 80, 146);
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  justify-content: center;
+}
+
+.parent {
+  width: 100%;
+  border: 1px solid rgb(255, 223, 237);
+  color: rgb(255, 223, 237);
+  box-shadow: 2px 3px 5px 5px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  text-align: center;
+}
+
+.icon {
+  float: right;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Name {
+  text-align: center;
+  box-shadow: 2px 3px 4px rgba(219, 204, 204, 0.75);
+}
+
+.ath {
+  text-align: center;
+}
+
+.img {
+  width: 100px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+}
