@@ -11,10 +11,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/* <Home /> */}
         <Routes>
           <Route path="/CoinDetails/:id" element={<CoinDetails />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/" exact element={<Home />} />
         </Routes>
       </Router>
     </div>

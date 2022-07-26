@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <div>
+    <div
+      className="carousel slide carousel-fade"
+      onKeyDown={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+    >
+      <div
+        className="carousel-indicators"
+      >
+        <button
+          aria-current={true}
+          aria-label="Slide 1"
+          className="active"
+          data-bs-target=""
+          onClick={[Function]}
+          type="button"
+        />
+        <button
+          aria-current={false}
+          aria-label="Slide 2"
+          data-bs-target=""
+          onClick={[Function]}
+          type="button"
+        />
+        <button
+          aria-current={false}
+          aria-label="Slide 3"
+          data-bs-target=""
+          onClick={[Function]}
+          type="button"
+        />
+      </div>
+      <div
+        className="carousel-inner"
+      >
+        <div
+          className="active carousel-item"
+        >
+          <img
+            alt="Market ratings"
+            className="d-block w-100"
+            src="Crypto1.jpg"
+          />
+          <div
+            className="carousel-caption"
+          >
+            <h3>
+              This is a beautiful image
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+          </div>
+        </div>
+        <div
+          className="carousel-item"
+        >
+          <img
+            alt="Ratings"
+            className="d-block w-100"
+            src="Crypto2.jpg"
+          />
+          <div
+            className="carousel-caption"
+          >
+            <h3>
+              This is another most fancy a
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+          </div>
+        </div>
+        <div
+          className="carousel-item"
+        >
+          <img
+            alt="coin ratings"
+            className="d-block w-100"
+            src="Crypto3.jpg"
+          />
+          <div
+            className="carousel-caption"
+          >
+            <h3>
+              This is another Beautiful Image
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            </p>
+          </div>
+        </div>
+      </div>
+      <a
+        className="carousel-control-prev"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-prev-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Previous
+        </span>
+      </a>
+      <a
+        className="carousel-control-next"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <span
+          aria-hidden="true"
+          className="carousel-control-next-icon"
+        />
+        <span
+          className="visually-hidden"
+        >
+          Next
+        </span>
+      </a>
+    </div>
+  </div>
+  <div>
+    <div
+      className="search"
+    >
+      <div
+        className="center input-group input-group-lg"
+        onChange={[Function]}
+      >
+        <span
+          className="input-group-text"
+          id="inputGroup-sizing-lg"
+        >
+          Search
+        </span>
+        <input
+          aria-describedby="inputGroup-sizing-sm"
+          aria-label="Large"
+          className="form-control"
+        />
+      </div>
+    </div>
+    <div
+      className="grid"
+    />
+  </div>
+</div>
+`;

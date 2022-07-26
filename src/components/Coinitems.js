@@ -8,23 +8,27 @@ const CoinItems = ({ coin }) => {
   const {
     symbol, name, ath, image, id,
   } = coin;
+  // const iseEven = (item) => item % 2 === 0;
+  // const evenIndexed = coin.findIndex(iseEven);
   return (
     <div>
       <div className="parent">
-        <Link className="Links" to={`/CoinDetails/${id}`} state={{ coin, id }}>
-          <div className="icon">
-            <FiArrowRightCircle />
+        <div>
+          <Link className="Links" to={`/CoinDetails/${id}`} state={{ coin, id }}>
+            <div className="icon">
+              <FiArrowRightCircle />
+            </div>
+          </Link>
+          <div className="title">
+            <h2 className="Name">{name}</h2>
           </div>
-        </Link>
-        <div className="title">
-          <h2 className="Name">{name}</h2>
-        </div>
-        <div className="image">
-          <img src={image} alt="coinImages" className="img" />
-        </div>
-        <div className="div">
-          <p className="ath">{ath}</p>
-          <p className="Symbol">{symbol}</p>
+          <div className="image">
+            <img src={image} alt="coinImages" className="img" />
+          </div>
+          <div className="div">
+            <p className="ath">{ath}</p>
+            <p className="Symbol">{symbol}</p>
+          </div>
         </div>
       </div>
     </div>

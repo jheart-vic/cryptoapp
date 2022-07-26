@@ -1,9 +1,10 @@
 import React from 'react';
 import CoinContainer from './CoinContainer';
 import Slide from './Slide';
+import './Coin.css';
 
 const Home = () => (
-  <div>
+  <div className="wrapper">
     <Slide />
     <CoinContainer />
   </div>
