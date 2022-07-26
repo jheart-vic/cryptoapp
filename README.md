@@ -18,12 +18,9 @@ An App that displays information on crypto market
 
 
 ## Live demo link (Not Available)
-
 ## Live video link (Not Available)
 - click here to see [video demo](https://www.loom.com/share/b672e8ca4b5848109ca614396492e23a)
-
 ## Getting Started
-
 To get a local copy up and running:
 
 1. Clone this repository or download the Zip folder:
