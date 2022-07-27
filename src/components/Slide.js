@@ -16,8 +16,8 @@ const Slide = () => (
           alt="Market ratings"
         />
         <Carousel.Caption>
-          <h3>This is a beautiful image</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+          <h3 style={{ fontSize: '4rem', color: 'purple' }}>Become your best</h3>
+          <p style={{ fontSize: '4rem', color: 'purple' }}>Nothing can stop you when crypto has your back</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -27,8 +27,8 @@ const Slide = () => (
           className="d-block w-100"
         />
         <Carousel.Caption>
-          <h3>This is another most fancy a</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+          <h3 style={{ fontSize: '4rem', color: 'purple' }}>A new lifestyle</h3>
+          <p style={{ fontSize: '4rem', color: 'purple' }}>Your dream lifestyle is possible with crypto</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -38,8 +38,8 @@ const Slide = () => (
           className="d-block w-100"
         />
         <Carousel.Caption>
-          <h3>This is another Beautiful Image</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+          <h3 style={{ fontSize: '4rem', color: 'purple' }}>Life isn&apos;t easy you just got stronger</h3>
+          <p style={{ fontSize: '2rem', color: 'purple' }}>Grow and become stronger everyday with crypto</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

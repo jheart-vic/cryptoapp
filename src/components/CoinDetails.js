@@ -14,7 +14,7 @@ const CoinDetails = () => {
         </h1>
         <Link to="/">
           <div className="close">
-            <BackButton />
+            <BackButton className="closebtn" />
           </div>
         </Link>
       </div>

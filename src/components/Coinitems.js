@@ -8,8 +8,6 @@ const CoinItems = ({ coin }) => {
   const {
     symbol, name, ath, image, id,
   } = coin;
-  // const iseEven = (item) => item % 2 === 0;
-  // const evenIndexed = coin.findIndex(iseEven);
   return (
     <div>
       <div className="parent">
