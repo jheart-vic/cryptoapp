@@ -17,9 +17,9 @@ An App that displays information on crypto market
 ![Screenshot (40)](https://user-images.githubusercontent.com/67344757/181127034-f0abf868-1a63-4855-8173-c6d99f1d594a.png)
 
 
-## Live demo link (Not Available)
+## Live demo link
 - see live demo [click here](https://crypto-area.herokuapp.com/)
-## Live video link (Not Available)
+## Live video link
 - click here to see [video demo](https://www.loom.com/share/b672e8ca4b5848109ca614396492e23a)
 ## Getting Started
 To get a local copy up and running:
