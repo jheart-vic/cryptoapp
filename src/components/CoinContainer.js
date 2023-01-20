@@ -6,7 +6,7 @@ import './Coin.css';
 import Search from './SearchButton';
 
 const CoinContainer = () => {
-  const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=21&page=1&sparkline=false';
+  const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=103&page=1&sparkline=false';
   const dispatch = useDispatch();
   const { Coins } = useSelector((state) => state.cryptos);
   const [coinsToRender, setCoinsToRender] = useState(Coins);
