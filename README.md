@@ -18,7 +18,7 @@ An App that displays information on crypto market
 
 
 ## Live demo link
-- see live demo [click here](https://crypto-area.herokuapp.com/)
+- see live demo [click here](https://jhcryptoshub.netlify.app/)
 ## Live video link
 - click here to see [video demo](https://www.loom.com/share/b672e8ca4b5848109ca614396492e23a)
 ## Getting Started
